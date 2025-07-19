@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/alike_angular</item>
+        <item>@font/amiko</item>
+        <item>@font/andika</item>
+        <item>@font/andika_new_basic</item>
+        <item>@font/arbutus</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/mitr_extralight</item>
+        <item>@font/stardos_stencil</item>
+        <item>@font/wendy_one</item>
+    </array>
+</resources>

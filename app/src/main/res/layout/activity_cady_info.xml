@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activies.Cady_info">
+
+    <ImageView
+        android:id="@+id/imgactivity"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/save" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/wendy_one"
+        android:text="Kediler, evrim sürecinde yırtıcı avcı olarak gelişmiş, genellikle küçük etçil memelilerdir. Genellikle esnek vücut yapıları, keskin pençeleri ve gelişmiş gece görme yetenekleriyle bilinirler. Kedigiller familyası, dünya genelinde çeşitli türler barındırır; bunlar arasında en yaygın olanları ev kedisi (Felis catus), aslan (Panthera leo), kaplan (Panthera tigris), leopar (Panthera pardus) ve çita (Acinonyx jubatus) yer alır. Kediler genellikle bağımsız ve avcıdırlar; yüksek çeviklikleri ve sessiz hareketleri, avlanmalarını kolaylaştırır. Beslenmeleri genellikle et bazlıdır ve vahşi yaşamda farklı ortamlarda yaşarlar, ancak evcil versiyonları insanlarla birlikte yaşarlar ve genellikle evcil hayvan olarak beslenirler.       "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgactivity" />
+</androidx.constraintlayout.widget.ConstraintLayout>
